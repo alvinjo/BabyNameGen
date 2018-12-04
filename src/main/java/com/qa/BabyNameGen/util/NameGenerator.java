@@ -14,7 +14,7 @@ public class NameGenerator {
         }
 
         builder.append(startsWith);
-        for (int i = 0; i < length; i++) {
+        for (int i = startsWith.length(); i < length; i++) {
             builder.append(makeCharacter());
         }
         return builder.toString();
