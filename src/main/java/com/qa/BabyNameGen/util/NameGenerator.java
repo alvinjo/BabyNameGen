@@ -22,7 +22,7 @@ public class NameGenerator {
 
 
     private static boolean lengthIsSameOrExceeds(int requiredLength, int stringLength){
-        return requiredLength<=stringLength;
+        return requiredLength<stringLength;
     }
 
     private static char makeCharacter(){
